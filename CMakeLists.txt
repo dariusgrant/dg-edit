@@ -13,5 +13,5 @@ ADD_LIBRARY(dg-edit-lib
     include/TextEditor.hpp src/TextEditor.cpp
 )
 
-ADD_EXECUTABLE(editor src/main.cpp)
-TARGET_LINK_LIBRARIES(editor ${FLTK_LIBRARIES} dg-edit-lib)
+ADD_EXECUTABLE(dg-edit src/main.cpp)
+TARGET_LINK_LIBRARIES(dg-edit ${FLTK_LIBRARIES} dg-edit-lib)
